@@ -1,0 +1,21 @@
+.body {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  white-space: nowrap;
+  ul {
+    display: flex;
+    gap: 1em;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+.title {
+  align-self: flex-start;
+  font-weight: 700;
+}
